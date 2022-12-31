@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.configuraciones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1%;
+}
+
+.configuraciones p{
+    margin: 0 15px;
+}
+
+.imagen-profile{
+    width: 50%;
+    height: 50%;
+}
+
+.h1{
+    color: black;
+    justify-content: space-between;
+}
+
+.name{
+    width: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superior{
+    display: flex;
+    justify-content: center;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#input-search{
+    border: none;
+    margin-left: -37px;
+    width: 390px;
+    height: 34px;
+}
+
+#input-search:focus{
+    outline: none;
+}
+
+.busqueda{
+    text-align: center;
+    height: 40px;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.barra-busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lupa{
+    width: 20px;
+    margin: 5px 0px 0px 3px;
+}
+
+.microfono{
+    width: 15px;
+    margin: 6px 3px 0px 0px;
+}
+
+.camara{
+    width: 20px;
+    margin: 0px 3px 0px 3px;
+}
+
+.medio{
+    text-align: center;
+    color: gray;
+    padding: 58px;
+}
+
+#search, #lucky{
+    color: #202124;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    height: 36px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#search:hover{
+    border: 1px solid #dadce0;
+}
+
+#lucky:hover{
+    border: 1px solid #dadce0;
+}
+
+.idioma{
+    text-align: center;
+}
+
+.idioma span{
+    color: blue;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer p{
+    width: 100%;
+}
+
+.lugar{
+    border-bottom: 1px solid #dadce0;
+    padding: 15px 10px;
+    color: #70757a;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.izquierdo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.izquierdo p{
+    margin: 0 10px;
+    padding: 15px 10px;
+    color: #70757a;
+
+}
+
+.derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.derecha p{
+    margin: 0 10px;
+    padding: 15px 10px;
+    color: #70757a;
+
+}
