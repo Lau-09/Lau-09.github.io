@@ -25,7 +25,8 @@ body{
 }
 
 .creative{
-    color: #fff;
+    display: flex;
+    color: #fff;justify-content: center;
 }
 
 .h1{
@@ -58,4 +59,22 @@ a{
 
 .link {
     text-align: center;
+}
+
+.titulos{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.hobbies{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.proyectos{
+    display: flex;
+    color: #fff;
+    justify-content: center;
 }
