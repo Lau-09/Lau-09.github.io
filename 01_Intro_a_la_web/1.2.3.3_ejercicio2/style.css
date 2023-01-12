@@ -1,0 +1,38 @@
+.body{
+    padding: 10px 20px;
+    background-color: grey;
+}
+
+.azul{
+    background-color: aqua;
+}
+
+.chico {
+    width: 100px;
+    height: 100px;
+    margin: 20px 6px;
+}
+
+.mediano{
+    width: 100px;
+    height: 100px;
+}
+
+.grande{
+    width: 49%;
+    height: 300%;
+    margin: 20px 6px;
+}
+
+.container{
+    width: 49%;
+    height: 300%;
+}
+
+.margin-derecho{
+    margin-right: 2%;
+}
+
+.margin-abajo{
+    margin-right: 10%;
+}
