@@ -4,75 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clon Pinterest</title>
+    <title>Copia de Pinterest</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav id="nav-pinterest">
-            <a href="https://www.pinterest.com"><img src="./imagenes/logo_pinterest.jpg" alt="Pinterest_Icon" id="pinterest-icon"></a>
-            <div class="left-items">
-                <ul class="first">
-                    <li><a href="#" id="inicio">Inicio</a></li>
-                    <li><a href="#" id="hoy">Hoy</a></li>
-                    <li>
-                        <div class="crear">
-                            <a href="#">Crear</a>
-                        </div>
-                    </li>
-                </ul>
+    <div class="padre">
+        <div class="superior">
+            <a href="https://co.pinterest.com/"><img id="imagen_pinterest" src="./imagenes/logo.png"></a>
+            <a href="#" class="button">Inicio</a>
+            <a class="nav_enlace">Hoy</a>
+            <a class="nav_enlace">Crear</a>
+            <div class="busqueda">
+                <input type="text" placeholder="Search" required>
             </div>
-            <div class="search">
-                <div class="barra">
-                    <div><span class="material-symbols-outlined" id="lupa">search</span></div>
-                    <input type="text" placeholder="Buscar" class="finder">
-                </div>
+            <div class="opciones_derecha">
+                <a href="#"><img id="imagen_pinterest" src="./imagenes/notificaciones.png"></a>
+                <a href="#"><img id="imagen_pinterest" src="./imagenes/mensajes.png"></a>
+                <a href="#"><img id="imagen_pinterest" src="./imagenes/perfil.png"></a>
+                <a href="#"><img id="imagen_pinterest" src="./imagenes/opciones.png"></a>
             </div>
-            <div class="right-items">
-                <span class="material-symbols-outlined" id="notifications">Notificaciones</span>
-                <span class="material-symbols-outlined" id="message">Mensajes</span>
-                <span class="material-symbols-outlined" id="profile-img">Perfil</span>
-                <span class="material-symbols-outlined">Opciones</span>
-            </div>
-        </nav>
-    </header>
-    <!-- Imagenes -->
-    <main class="contenido">
-        <div class="imagenes">
-            <div class="foto_1"><img src="./imagenes/foto 1.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_2"><img src="./imagenes/foto 2.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_3"><img src="./imagenes/foto 3.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_4"><img src="./imagenes/foto 4.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_5"><img src="./imagenes/foto 5.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_6"><img src="./imagenes/foto 6.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_7"><img src="./imagenes/foto 7.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_8"><img src="./imagenes/foto 8.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_9"><img src="./imagenes/foto 9.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_10"><img src="./imagenes/foto 10.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_11"><img src="./imagenes/foto 11.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_12"><img src="./imagenes/foto 12.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_13"><img src="./imagenes/foto 13.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_14"><img src="./imagenes/foto 14.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_15"><img src="./imagenes/foto 15.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_16"><img src="./imagenes/foto 16.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_17"><img src="./imagenes/foto 17.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_18"><img src="./imagenes/foto 18.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_19"><img src="./imagenes/foto 19.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_20"><img src="./imagenes/foto 20.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_20"><img src="./imagenes/foto 20.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_20"><img src="./imagenes/foto 20.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_21"><img src="./imagenes/foto 21.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_22"><img src="./imagenes/foto 22.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_23"><img src="./imagenes/foto 23.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_24"><img src="./imagenes/foto 24.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_25"><img src="./imagenes/foto 25.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_26"><img src="./imagenes/foto 26.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_27"><img src="./imagenes/foto 27.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_28"><img src="./imagenes/foto 28.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_29"><img src="./imagenes/foto 29.png" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
-            <div class="foto_30"><img src="./imagenes/foto 30.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
         </div>
-        <a id="preguntas">Preguntas</span></a>
-    </main>
+    </div>
+    <div class="imagenes">
+        <div class="foto_1"><img src="./imagenes/foto 1.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_2"><img src="./imagenes/foto 2.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_3"><img src="./imagenes/foto 3.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_4"><img src="./imagenes/foto 4.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_5"><img src="./imagenes/foto 5.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_6"><img src="./imagenes/foto 6.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_7"><img src="./imagenes/foto 7.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_8"><img src="./imagenes/foto 8.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_9"><img src="./imagenes/foto 9.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_10"><img src="./imagenes/foto 10.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_11"><img src="./imagenes/foto 11.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_12"><img src="./imagenes/foto 12.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_13"><img src="./imagenes/foto 13.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_14"><img src="./imagenes/foto 14.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_15"><img src="./imagenes/foto 15.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_16"><img src="./imagenes/foto 16.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_17"><img src="./imagenes/foto 17.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_18"><img src="./imagenes/foto 18.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_19"><img src="./imagenes/foto 19.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_20"><img src="./imagenes/foto 20.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_20"><img src="./imagenes/foto 20.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_20"><img src="./imagenes/foto 20.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_21"><img src="./imagenes/foto 21.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_22"><img src="./imagenes/foto 22.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_23"><img src="./imagenes/foto 23.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_24"><img src="./imagenes/foto 24.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_25"><img src="./imagenes/foto 25.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_26"><img src="./imagenes/foto 26.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_27"><img src="./imagenes/foto 27.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_28"><img src="./imagenes/foto 28.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_29"><img src="./imagenes/foto 29.png" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+        <div class="foto_30"><img src="./imagenes/foto 30.jpg" alt="" class="img"><button class="button"><a>Buscar</a></button></div>
+    </div>
+    <div class="pregunta">
+
+    </div>
 </body>
 </html>
